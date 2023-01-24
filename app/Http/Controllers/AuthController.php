@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
-use app\Models\User;
+use App\Models\User;
 use App\Http\Requests\Auth\LoginRequest;
 
 class AuthController extends Controller
